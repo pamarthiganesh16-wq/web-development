@@ -1,0 +1,115 @@
+
+        /* Basic page styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f2f6fc;
+        }
+
+        /* Navigation bar */
+        nav {
+            background-color: #123b70;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav h2 {
+            margin: 5px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        /* College banner */
+        .banner {
+            background-color: #176b87;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .banner h1 {
+            font-size: 35px;
+        }
+
+        .banner p {
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: orange;
+            color: black;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /* Common sections */
+        section {
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #123b70;
+        }
+
+        /* Information cards */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            width: 250px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #cccccc;
+        }
+
+        .card h3 {
+            color: #176b87;
+        }
+
+        /* Contact section */
+        .contact {
+            background-color: #e0eaf5;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #123b70;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        /* Mobile-friendly layout */
+        @media (max-width: 600px) {
+            nav a {
+                margin: 6px;
+                font-size: 14px;
+            }
+
+            .banner h1 {
+                font-size: 27px;
+            }
+
+            .card {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
